@@ -39,9 +39,7 @@ module.exports = {
       options: {
         plugins: ['syntax-dynamic-import'],
 
-        presets: [['env', {
-          'modules': false
-        }]]
+        presets: [['env']]
       },
 
       test: /\.js$/
